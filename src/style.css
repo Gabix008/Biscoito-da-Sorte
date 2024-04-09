@@ -1,0 +1,37 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.texto{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}
+
+.textoInicial{
+    color: #dd7b22;
+}
+
+.botao{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: antiquewhite;
+    border:none;
+}
+
+.botao:hover{
+    background-color: #fcbc81;
+}
